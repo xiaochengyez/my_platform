@@ -1,6 +1,5 @@
 package com.gongxc.platform_api.common;
 
-
 import static com.gongxc.platform_api.common.ResponseResult.ResponseParam;
 import static com.gongxc.platform_api.common.ResponseResult.ResponseParam.buildParam;
 
