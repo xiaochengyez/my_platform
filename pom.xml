@@ -8,5 +8,10 @@
     <artifactId>my_test_platform</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>platform_api</module>
+        <module>platform_web</module>
+        <module>common</module>
 
+    </modules>
 </project>
