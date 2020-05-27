@@ -31,11 +31,6 @@ public class Cases {
     @ApiModelProperty(value = "用例描述", name = "description", required = true, example = "登录")
     private String description;
 
-    @Column(name = "json")
-    private String json;
-
-    @Column(name = "headers")
-    private String headers;
 
     @Column(name = "expect")
     @ApiModelProperty(value = "用例期望", name = "expect", required = true, example = "pass")
@@ -44,8 +39,6 @@ public class Cases {
     @Column(name = "case_type")
     private int caseType;
 
-    @Column(name = "data_type")
-    private int dataType;
 
     @Column(name = "remark")
     @ApiModelProperty(value = "用例标记", name = "remark", required = true, example = "登录")

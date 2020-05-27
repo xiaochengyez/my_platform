@@ -26,7 +26,7 @@ public class CaseServiceImpl implements CaseService {
     }
 
     @Override
-    public Optional<Cases> findUserById(Long id) {
+    public Optional<Cases> findCaseById(Long id) {
         return caseRepository.findById(id);
     }
 
@@ -44,5 +44,11 @@ public class CaseServiceImpl implements CaseService {
     @Override
     public void deleteById(Long id) {
         caseRepository.deleteById(id);
+    }
+
+    @Override
+    public void run(Long id) {
+
+        caseRepository.run(id);
     }
 }

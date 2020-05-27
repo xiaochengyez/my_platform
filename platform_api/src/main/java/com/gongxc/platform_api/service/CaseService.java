@@ -10,11 +10,13 @@ public interface CaseService {
 
     List<Cases> findAll();
 
-    Optional<Cases> findUserById(Long id);
+    Optional<Cases> findCaseById(Long id);
 
     Cases save(Cases user);
 
     void update(Long id, String name);
 
     void deleteById(Long id);
+
+    void run(Long id);
 }

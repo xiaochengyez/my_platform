@@ -15,10 +15,10 @@ import org.junit.jupiter.api.Test;
 public class WireMockTest {
     @Test
     void testMock(){
-        WireMockUtil.stub("{\"result\":\"success\",\"message\":\"成功！\"}");
+        WireMockUtil.mocking("{\"result\":\"success\",\"message\":\"成功！\"}");
     }
     @Test
     void testMoc(){
-        WireMockUtil.stub("hello");
+        WireMockUtil.mocking("hello");
     }
 }
